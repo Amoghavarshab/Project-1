@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"content="width=device-width, initial-scale=1">
+<style>
+  .space {
+  width: 4px;
+  height: auto;
+  display: inline-block;
+}
+* {
+  box-sizing: border-box;
+}
+.navbar{
+            position: sticky;
+            align-items: right;
+            justify-content: center;
+            
+            top: 10;
+            cursor: pointer;
+        }
+        .background {
+            background:rgb(66, 137, 129);
+            /*<!--background-blend-mode: red;-->*/
+            background-size: ;
+        }
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color:lightgrey;
+        }
+
+        .nav-list li a:hover {
+            color: grey;
+        }
+
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #777;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:lightgrey;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+HEIGHT: 100%
+  margin-top:0;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+
+<table>
+  <nav class="navbar background"; width="100%"; height="100%";>           <!--  navigation baar-->
+    <ul class="nav-list">
+<!--<a href="#" class="previous">&laquo; Previous</a>-->
+      
+        <div class="logo">
+          <a href="index.html"><b></b> <img src="https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/5/0/8/2/232805-6-eng-GB/ColorMatrix-SIC-Food-2013.jpg" width="70" height="70"></a>
+</div>
+<br>
+<br>
+<tr>
+<td style="width:40%">
+<h1><b><u><i>CONTACT</h1></b></u></i></td>
+<td style="width:80%">
+<h1><b><u><i>FEEDBACK FORM</h1></b></u></i></td>
+</tr>
+
+<tr>
+<td style="width:40%; height: 60%;">
+<div align="left">
+<div class="column">
+    <div class="card">
+ <div class="container">
+        
+       <h2><p class="title">COMPANY NAME :COLOR MATRIX</p></h2>
+        <h2><p>ADDRESS: S J B Institue Of Technology,uttarahalli main road ,kodipalya , bengaluru</p></h2>
+        <h2><p>E-MAIL: colormatrix@example.com</p></h2>
+        <h1><p><button class="button">Contact : 1234567890</button></p></h1S>
+<h2>COMPANY  LOCATION :</h2>
+
+<div id="googleMap" style="width:7%;height:20px;"></div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.121872473162!2d77.49359951482124!3d12.899884090902981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f15cd2b48fb%3A0x46277e17c8b2ccc3!2sSJB%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1666000500860!5m2!1sen!2sin" width="420" height="285" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+      </div>
+    </div>
+  </div>
+</td>
+
+
+
+
+
+
+<td style="width=40%; height: 60%;">
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+       <h2><label for="fname">First Name</label></h2>
+      </div>
+      <div class="col-75">
+        <h2><input type="text" id="fname" name="firstname" placeholder="Your name.."></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <h2><label for="lname">Last Name</label></h2>
+      </div>
+      <div class="col-75">
+        <h2><input type="text" id="lname" name="lastname" placeholder="Your last name.."></h2>
+      </div>
+    </div>
+
+
+ <div class="row">
+      <div class="col-25">
+       <h2><label for="fname">Phone No.</label></h2>
+      </div>
+      <div class="col-75">
+        <h2><input type="text" id="pnumber" name="phonenumber" placeholder="your number.."></h2>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-25">
+        <h2><label for="country">Country</label></h2>
+      </div>
+      <div class="col-75">
+        <h2><select id="country" name="country"></h2>
+          <option value="australia">AUSTRALIA</option>
+          <option value="canada">CANADA</option>
+          <option value="usa">USA</option>
+<option value="usa">INDIA</option>
+<option value="usa">CHINA</option>
+<option value="usa">UK</option>
+<option value="usa">AFGHANISTHAN</option>
+<option value="usa">SRI LANKA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <h2><label for="subject">Subject</label></h2>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="space">
+      </div>
+      <input type="submit" value="Submit">
+      <div class="space">
+      </div>
+      <input type="submit" value="VIEW">
+
+    </div>
+  </form>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
